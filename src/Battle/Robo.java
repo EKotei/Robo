@@ -23,7 +23,12 @@ public class Robo extends Robot {
 					back(75);
 					turnGunRight(360);
 					ahead(50);
-					turnGunRight(360);
+					turnGunRight(180);
+					ahead(150);
+					turnGunRight(180);
+					back(150);
+					turnGunRight(180);					
+					turnLeft(90);
 					ahead(100);
 	}	
 			 
@@ -39,5 +44,6 @@ public class Robo extends Robot {
 	 
 
 }		
+
 
 
